@@ -689,7 +689,7 @@ a {
 }
 
 p {
-    font-size: 30px; /*corrigé 30px au lieu 20px*/
+    font-size: 20px; /*corrigé 30px au lieu 20px*/
 }
 
 .tight-width-whitespace {
@@ -712,8 +712,12 @@ p {
 }
 
 .social {
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+   
     max-width: 400px;
-    margin: auto auto auto auto;
+   margin: auto auto auto auto;
 }
 
 h2 {
@@ -754,6 +758,8 @@ h4 {
 }
 
 .portfolio-thumb {
+    height: 100%;
+    width: 100%;
     margin-bottom: 24px;
 }
 
@@ -1046,7 +1052,8 @@ h4 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
+ 
+        padding-left: 0px;
         padding-right: 0;
     }
 }
